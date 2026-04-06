@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install:*)",
+      "Bash(python3 -c \"import fitz; print\\(''pymupdf available''\\)\")",
+      "Bash(python3 -c \"from pdf2image import convert_from_path; print\\(''pdf2image available''\\)\")",
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "Bash(curl -s -u \"mikidazin@gmail.com:YH1j AqGu 3FB5 9LmE MoDW M2tQ\" \"https://wordpress-535938-5839894.cloudwaysapps.com/wp-json/wp/v2/users/me\")",
+      "Bash(curl -s -u \"mikidazin@gmail.com:YH1j AqGu 3FB5 9LmE MoDW M2tQ\" \"https://wordpress-535938-5839894.cloudwaysapps.com/wp-json/wp/v2/pages/8043\")",
+      "Bash(curl -s -u \"mikidazin@gmail.com:YH1j AqGu 3FB5 9LmE MoDW M2tQ\" \"https://wordpress-535938-5839894.cloudwaysapps.com/wp-json/wp/v2/pages/8043?context=edit\")",
+      "Bash(curl -s -u \"mikidazin@gmail.com:YH1j AqGu 3FB5 9LmE MoDW M2tQ\" \"https://wordpress-535938-5839894.cloudwaysapps.com/wp-json/wp/v2/media?per_page=100&orderby=date&order=desc\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://wordpress-535938-5839894.cloudwaysapps.com/\")",
+      "Bash(sshpass -p 'pRK4tpnn' ssh -o StrictHostKeyChecking=no master_hzzbvkappd@199.247.20.181 \"ls /home/*/applications/*/public_html/.maintenance 2>/dev/null; find /home/*/applications/*/public_html -name ''.maintenance'' -type f 2>/dev/null\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://wordpress-535938-5839894.cloudwaysapps.com/home2/\")",
+      "Skill(update-config)",
+      "Skill(update-config:*)"
+    ]
+  }
+}
