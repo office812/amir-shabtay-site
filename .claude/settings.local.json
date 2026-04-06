@@ -14,7 +14,8 @@
       "Bash(sshpass -p 'pRK4tpnn' ssh -o StrictHostKeyChecking=no master_hzzbvkappd@199.247.20.181 \"ls /home/*/applications/*/public_html/.maintenance 2>/dev/null; find /home/*/applications/*/public_html -name ''.maintenance'' -type f 2>/dev/null\")",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://wordpress-535938-5839894.cloudwaysapps.com/home2/\")",
       "Skill(update-config)",
-      "Skill(update-config:*)"
+      "Skill(update-config:*)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }
